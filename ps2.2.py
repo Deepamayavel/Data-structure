@@ -1,0 +1,5 @@
+num=list(map(int,input("enter the numbers:").split()))
+ascending = sorted(num)
+descending = sorted(num, reverse=True)
+print("Ascending order:", ascending)
+print("Descending order:", descending)
